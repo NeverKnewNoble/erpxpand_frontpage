@@ -90,7 +90,7 @@
 
     .button#Sell:hover {
         background-image: linear-gradient(to bottom right, #f0b6a1, #f0b6a1);
-    }
+    }Login
 
     .button#Hr:hover {
         background-image: linear-gradient(to bottom right, #f4afbb, #f4afbb);
@@ -165,15 +165,57 @@
         margin-top: 100px;
     }
 
+    .logbtncont {
+        position: absolute;
+        top: 20px; 
+        right: 10px;
+        transform: translateX(-50%);
+    }
+
+    .logbtn {
+        width: 100px;
+        height: 40px;
+        position: relative;
+        border-radius: 5px;
+        border: none;
+        padding: 0 15px;
+        background-image: linear-gradient(to bottom right, #eec8ed,#e7e4f9); 
+        transition: all 0.5s;
+        cursor: pointer;
+        opacity: 1;
+    }
+
+    .logbtn:hover {
+        background-image: linear-gradient(to bottom right, #ADD8E6, #ADD8E6);
+    }
+
+    .logdt {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+    }
+
+
     </style>
 </head>
 <body>
     <div class="banner">
         <div class="logodiv"><img src="images/logo.png" class="logo"></div>
+
+        <div class="logbtncont">
+            <a id="login-link" href="/login#login">
+                <button class="logbtn">
+                    <span id="login-text" class="logdt">Login</span>
+                </button>
+            </a>
+        </div>
     
+
+
         <div class="container">
             <div class="grid_item">
-                <a href="https://erpxpand.com/app/accounting">
+                <a href="/app/accounting">
                     <button class="button" id="Acc" >
                         <img class="icon" src="images/accounting.png"> 
                     </button>
@@ -181,7 +223,7 @@
                 </a>
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app/buying">
+                <a href="/app/buying">
                     <button class="button" id="Buy">
                         <img class="icon" src="images/buying.png">
                     </button>
@@ -189,7 +231,7 @@
                 </a>
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app/selling">
+                <a href="/app/selling">
                     <button class="button"  id="Sell">
                         <img class="icon" src="images/selling.png">
                     </button>
@@ -197,7 +239,7 @@
                 </a>
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app/hr">
+                <a href="/app/hr">
                     <button class="button"  id="Hr">
                         <img class="icon" src="images/hr.png">
                     </button>
@@ -205,7 +247,7 @@
                 </a>
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app/payroll">
+                <a href="/app/payroll">
                     <button class="button"  id="Pay">
                         <img class="icon" src="images/payroll.png">
                     </button>
@@ -213,7 +255,7 @@
                 </a>
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app/crm">
+                <a href="/app/crm">
                     <button class="button"  id="Crm">
                         <img class="icon" src="images/crm.png">
                     </button>
@@ -222,7 +264,7 @@
                 
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app/gh-customize">
+                <a href="/app/gh-customize">
                     <button class="button"  id="Cus">
                         <img class="icon" src="images/customize.png">
                     </button>
@@ -231,7 +273,7 @@
 
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app/frontdesk">
+                <a href="/app/frontdesk">
                     <button class="button"  id="front">
                         <img class="icon" src="images/frontdesk.png">
                     </button>
@@ -242,7 +284,7 @@
 
 
             <div class="grid_item">
-                <a href="https://erpxpand.com/app/loans">
+                <a href="/app/loans">
                     <button class="button"  id="loan">
                         <img class="icon" src="images/loans.png">
                     </button>
@@ -251,7 +293,7 @@
                 
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app">
+                <a href="/app/">
                     <button class="button"  id="health">
                         <img class="icon" src="images/healthcare.png">
                     </button>
@@ -259,7 +301,7 @@
                 </a>
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app">
+                <a href="/app">
                     <button class="button"  id="Edu">
                         <img class="icon" src="images/education.png">
                     </button>
@@ -267,7 +309,7 @@
                 </a>
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app">
+                <a href="/app/quality">
                     <button class="button"  id="Quali">
                         <img class="icon" src="images/quality.png">
                     </button>
@@ -278,7 +320,7 @@
 
 
             <div class="grid_item">
-                <a href="https://erpxpand.com/app/projects">
+                <a href="/app/projects">
                     <button class="button"  id="Proj">
                         <img class="icon" src="images/projects.png">
                     </button>
@@ -286,7 +328,7 @@
                 </a>
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app">
+                <a href="/app/manufacturing">
                     <button class="button"  id="manu">
                         <img class="icon" src="images/manufacturing.png">
                     </button>
@@ -294,7 +336,7 @@
                 </a>
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app/stock">
+                <a href="/app/stock">
                     <button class="button"  id="Stoc">
                         <img class="icon" src="images/stock.png">
                     </button>
@@ -302,7 +344,7 @@
                 </a>
             </div>
             <div class="grid_item">
-                <a href="https://erpxpand.com/app">
+                <a href="/app/assets">
                     <button class="button"  id="Assets">
                         <img class="icon" src="images/assets.png">
                     </button>
@@ -317,6 +359,42 @@
             <div class="elediv"><img src="images/frontpic.png" class="ele"></div>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            checkLoginStatus();
+
+            // Check login status on page load and on navigating back
+            window.addEventListener('pageshow', function(event) {
+                if (event.persisted) {
+                    checkLoginStatus();
+                }
+            });
+
+            function checkLoginStatus() {
+                fetch('/api/method/frappe.auth.get_logged_user', {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.message) {
+                        // User is logged in
+                        document.getElementById('login-text').innerText = 'Desk';
+                        document.getElementById('login-link').href = '/app';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching login status:', error);
+                });
+            }
+        });
+    </script>
+    
+    
+
 </body>
 </html>
 
